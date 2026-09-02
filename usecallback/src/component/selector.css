@@ -1,0 +1,55 @@
+.heading{
+height: 50px;
+background-color: rgb(118, 39, 39);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+margin-top: 0px;
+margin-bottom: 0px;
+color: white
+}
+.tags{
+    max-width: 100vw;
+    color: red;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(199, 176, 176);
+    height: 50px;
+    display: flex;
+
+    .topics{
+        display: flex;
+        text-align: center;
+        
+        .p{
+            color: blue;
+            height: 50px;
+            width: 16vw;
+            background-color: pink;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 10px;
+            font-size: 20px;
+
+        }
+    }
+    
+    .search{
+        display: flex;
+        align-items: center;
+    }
+    .input{
+        width: 32vw;
+        height: 30px;
+        display: flex;
+    }
+    .button{
+        height: 35px;
+        margin-right: 20px;
+
+    }
+ }  
+ 
+ 
