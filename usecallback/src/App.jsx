@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <h3 className='haeding'>product selector</h3>
+    <h3 className='heading'>product selector</h3>
       <div className='tags'>
         <div className='topics'>
           <p className='p'>Home</p>
