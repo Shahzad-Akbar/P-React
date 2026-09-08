@@ -5,6 +5,7 @@ import PropDrill from "./component/propdrilling.jsx";
 import ContextUser from "./component/contextuse.jsx";
 import ContextExample from "./component/context.jsx";
 import AgeUpdate from "./component/contextsethandle.jsx";
+import ReducerHook from "./component/usereducer.jsx";
 
 
 function App() {
@@ -34,6 +35,10 @@ function App() {
       <ContextUser/>
       <AgeUpdate />
       </ContextExample>
+     --------------------------------------------------------
+     <br />
+     <ReducerHook/>
+
      
     </>
   )
