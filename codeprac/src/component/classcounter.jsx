@@ -1,20 +1,27 @@
-import { Component } from "react"
+import { Component } from "react";
 
-class ClassCounter extends Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            count: 0
-        }
+class Counter extends Component{
+    // constructor(props){
+    //     super(props);
+    //     this.state ={
+    //         count: 0
+    //     }
+    // }
+    state = {
+        count: 0
     }
-
+    handleIncreament =()=>{
+        this.setState({
+            count: this.state.count + 1
+        });
+    };
     render(){
         return(
         <>
-        <p>Count : {this.state.count}</p>
-        </>
-    )
-    }    
+        <h3>Count : {this.state.count}</h3>
+        <button onClick={this.handleIncreament}>Click</button>
+        </>)
+    }
 }
 
-export default ClassCounter;
+export default Counter;
