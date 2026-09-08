@@ -2,6 +2,9 @@ import Counter from "./component/classcounter.jsx"
 import Lists from "./component/lists.jsx"
 import useFetch from "./component/datafetcher.jsx";
 import PropDrill from "./component/propdrilling.jsx";
+import ContextUser from "./component/contextuse.jsx";
+import ContextExample from "./component/context.jsx";
+import AgeUpdate from "./component/contextsethandle.jsx";
 
 
 function App() {
@@ -27,6 +30,10 @@ function App() {
      --------------------------------------------------------
      <PropDrill name={"Shahzad"} age={20} />
      --------------------------------------------------------
+     <ContextExample>
+      <ContextUser/>
+      <AgeUpdate />
+      </ContextExample>
      
     </>
   )
