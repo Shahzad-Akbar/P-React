@@ -41,6 +41,7 @@ function SideEffect() {
     }
 
     return (<>
+    <h1>I am from SideEffect handler using useReducer</h1>
         <div>{state.data?.map((dat) => {
             return <div key={dat.id}>{dat.login}</div>
         })}</div>

@@ -7,6 +7,7 @@ import ContextExample from "./component/context.jsx";
 import AgeUpdate from "./component/contextsethandle.jsx";
 import ReducerHook from "./component/usereducer.jsx";
 import SideEffect from "./component/sideeffect.jsx";
+import UseRefExample from "./component/userefexample.jsx";
 
 
 function App() {
@@ -43,7 +44,8 @@ function App() {
      <br />
      --------------------------------------------------------
      <SideEffect/>
-
+     --------------------------------------------------------
+     <UseRefExample/>
      
     </>
   )
