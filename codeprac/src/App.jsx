@@ -1,3 +1,4 @@
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import Counter from "./component/classcounter.jsx"
 import Lists from "./component/lists.jsx"
 import useFetch from "./component/datafetcher.jsx";
@@ -46,6 +47,18 @@ function App() {
      <SideEffect/>
      --------------------------------------------------------
      <UseRefExample/>
+     --------------------------------------------------------
+     <BrowserRouter>
+     <h1>I am from Router-Dom</h1>
+     <Link to='/counter'><button>Counter</button></Link>
+     <Link to='/reducer'><button>Reducer</button></Link>
+     <Link to='/effect'><button>Effect</button></Link>
+     <Routes>
+        <Route path='/counter' element={<Counter />}/>
+        <Route path='/reducer' element={<ReducerHook/>}/>
+        <Route path='/effect' element={<SideEffect/>}/>
+     </Routes>
+     </BrowserRouter>
      
     </>
   )
