@@ -1,4 +1,4 @@
-import Counter from "./component/cimport Counter from "
+import Counter from "./component/classcounter.jsx"
 import Lists from "./component/lists.jsx"
 import useFetch from "./component/datafetcher.jsx";
 import PropDrill from "./component/propdrilling.jsx";
@@ -50,4 +50,5 @@ function App() {
     </>
   )
 }
+
 export default App
