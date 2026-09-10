@@ -9,6 +9,7 @@ import AgeUpdate from "./component/contextsethandle.jsx";
 import ReducerHook from "./component/usereducer.jsx";
 import SideEffect from "./component/sideeffect.jsx";
 import UseRefExample from "./component/userefexample.jsx";
+import Parent from './purecomponent/pure.jsx';
 
 
 function App() {
@@ -59,6 +60,8 @@ function App() {
         <Route path='/effect' element={<SideEffect/>}/>
      </Routes>
      </BrowserRouter>
+     ----------------------------------------------------------
+     <Parent/>
      
     </>
   )
